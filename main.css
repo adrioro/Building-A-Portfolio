@@ -1,24 +1,45 @@
-body, html {
+body,html {
   margin: 0;
   padding: 0;
-  width: 100%;
-  height: 100%;
+  width: 100%; 
 }
 
-.header{
-	box-sizing: border-box;
-	border:3px outset black;
+body{
+	max-width: 1170px;
+	margin: auto;
+}
+
+header {
 	width: 100%;
+    max-width: 1170px;
     height: 100%;
-    display:flex /* To align .header's content side to side. */
-
+    display:flex; /* To align .header's content side to side. */
+    border: 2px solid #73AD21;
 
 }
+
+.logo_box{
+	position: absolute;
+	background-color: pink; /* Added only for reference */
+	top: 30px;	
+}
+
 
 .logo {
-	width: 35%;
-	padding: 12px;
+	width: 100%;
+	position: relative;
+	
+	
+}
 
+
+
+.keyimage{
+	max-width: 100%;
+	max-width: 1170px;
+	position: absolute;
+	display: flex;
+	flex-wrap: wrap;   
 }
 
 .header_title{
@@ -41,7 +62,6 @@ body, html {
   text-align: right;
   float:right;
   flex-grow: 8; /* To let the second flex-item grow x times (eight here) wider than the rest.*/
-  background-color: lightblue;
 }
 
 hr {
@@ -51,13 +71,13 @@ hr {
     -webkit-margin-after: 0.5em;
     -webkit-margin-start: auto;
     -webkit-margin-end: auto;
-    overflow: hidden;
     border-style: inset;
     border-width: 1px;
     color: #7d97ad;
     background-color: #7d97ad;
     height: 5px;
     width: 100%;
+    
 }
 
 
