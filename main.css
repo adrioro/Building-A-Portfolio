@@ -15,26 +15,20 @@ header {
     height: 100%;
     display:flex; /* To align .header's content side to side. */
     border: 2px solid #73AD21;
-
 }
 
 .logo_box{
 	position: absolute;
-	background-color: pink; /* Added only for reference */
+	background-color: pink; /*Background used only as a reference.*/
 	top: 30px;	
 }
 
-
 .logo {
 	width: 100%;
-	position: relative;
-	
-	
+	position: relative;	
 }
 
-
-
-.keyimage{
+.keyimage_box.keyimage{
 	max-width: 100%;
 	max-width: 1170px;
 	position: absolute;
@@ -76,8 +70,17 @@ hr {
     color: #7d97ad;
     background-color: #7d97ad;
     height: 5px;
-    width: 100%;
-    
+    width: 100%; 
+}
+
+.pics_box {
+	  width: 100%;
+    max-width: 1170px;
+    height: 100%;
+    display:flex; /* To align the box's content side to side. */
+    border: 2px solid #73AD21;
+    background-color: #7d97ad; /*Background used only as a reference.*/
+
 }
 
 
