@@ -1,0 +1,150 @@
+body,html {
+  margin: 0;
+  padding: 0;
+  width: 100%; 
+}
+
+body{
+	max-width: 1170px;
+	margin: auto;
+}
+
+header {
+	width: 100%;
+  max-width: 1170px;
+  height: 100%;
+  display:flex; /* To align .header's content side to side. */
+  border: 2px solid #73AD21;/* Used only as a reference. */
+}
+
+.logo_box{
+	position: absolute;
+	/* background-color: pink; Background used only as a reference.*/
+	top: 30px;	
+}
+
+.logo {
+	width: 100%;
+	position: relative;	
+  -webkit-transform: scale(0.5); /* Saf3.1+, Chrome */
+   -moz-transform: scale(0.5); /* FF3.5+ */
+    -ms-transform: scale(0.5); /* IE9 */
+     -o-transform: scale(0.5); /* Opera 10.5+ */
+        transform: scale(0.5);
+  position: relative;
+  top: 40px;
+  right:64px;
+}
+
+.keyimage_box.keyimage{
+	max-width: 100%;
+	max-width: 1170px;
+	position: absolute;
+	display: flex;
+	flex-wrap: wrap;   
+}
+
+.header_title{
+	font-family: "Helvetica", Arial, sans-serif;
+	font-size: 50px;
+	font-weight: normal;
+	text-transform: uppercase;
+	font-weight: 90; /* Defines from thin to thick characters */
+}
+
+.header_subtitle{
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 25px;
+	font-weight: normal;
+	text-transform: uppercase;
+	font-weight: 90; /* Defines from thin to thick characters */
+
+}
+.titles {
+  text-align: right;
+  float:right;
+  flex-grow: 8; /* To let the second flex-item grow x times (eight here) wider than the rest.*/
+}
+
+hr {
+    display: block;
+    unicode-bidi: isolate;
+    -webkit-margin-before: 0.5em;
+    -webkit-margin-after: 0.5em;
+    -webkit-margin-start: auto;
+    -webkit-margin-end: auto;
+    border-style: inset;
+    border-width: 1px;
+    color: #7d97ad;
+    background-color: #7d97ad;
+    height: 5px;
+    width: 100%; 
+}
+
+    .pics_box{
+    width: 100%;
+    max-width: 1170px;
+    height: 100%;
+    display:flex; /* To align .header's content side to side. */
+    border: 2px solid #73AD21;
+
+}
+
+    .div2{
+      position: center; 
+      margin-left: auto;
+      margin-right: auto;
+
+    }
+
+    .featured{
+      font-family: "Helvetica", Arial, sans-serif;
+      font-size: 35px;
+      font-weight: normal;
+      font-weight: 90; /* Defines from thin to thick characters */
+      color: #7d97ad;
+      margin-top: 30px;
+      margin-bottom: 9px;
+    }
+
+    h1{
+      position: center; 
+      margin-left: auto;
+      margin-right: auto;
+      font-family: "Helvetica", Arial, sans-serif;
+      font-size: 35px;
+      font-weight: normal;
+      font-weight: 90; /* Defines from thin to thick characters */
+    }
+
+    .project1, .project2, .project3{
+      font-family: "Helvetica", Arial, sans-serif;
+      font-size: 33px;
+      font-weight: 10; /* Defines from thin to thick characters */
+      text-align: center;
+      margin-bottom: auto;
+      text-transform: uppercase;
+      margin-top: 9px;
+
+    }
+
+    p{
+      font-family: "Helvetica", Arial, sans-serif;
+      font-size: 16px;
+      font-weight: 50%;
+      text-align: center;
+      color: #7d97ad;
+      font-weight: 100; /* Defines from thin to thick characters */
+      margin-top: auto;
+
+
+
+
+    }
+
+
+
+
+
+
+
