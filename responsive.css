@@ -3,6 +3,13 @@ header, body{
   flex-wrap: wrap;
 }
 
+@media screen and (max-width: 411px) {
+
+	.div2{
+      margin-right: 0px;
+      margin-left: 0px;
+    }
+
 @media screen and (max-width: 640px) {
 
 	.header {
