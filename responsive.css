@@ -1,0 +1,125 @@
+header, body{
+	display: flex;
+    flex-wrap: wrap;
+}
+
+@media screen and (max-width: 640px) {
+
+	.header {
+		width: 100%;
+	    height: 100%;
+	    display: flex; 
+	}
+
+	.logo_box{
+		position: relative;
+		top: 0px;	
+		width: 100%;
+		display: block;
+		margin-top: 0px;
+		margin-bottom: 0px;
+    }
+}
+	.logo {
+		width: 100%;
+		position: relative;	
+	    -webkit-transform: scale(0.5); /* Saf3.1+, Chrome */
+	    -moz-transform: scale(0.5); /* FF3.5+ */
+	    -ms-transform: scale(0.5); /* IE9 */
+	    -o-transform: scale(0.5); /* Opera 10.5+ */
+	    transform: scale(0.5);
+	    top: 0px;
+	    right:0px;
+	}
+
+	.titles {
+		text-align: center;
+	    flex-grow: 8; /* To let the second flex-item grow x times (eight here) wider than the rest.*/
+	    width: 50%;
+	}
+
+	.keyimage_box.keyimage{
+		position: relative;
+		flex-wrap: wrap;  
+    }
+
+    .pics_box{
+	    width: 100%;
+	    height: 100%;
+	    display:flex; /* To align .header's content side to side. */
+	    top: 0px;	
+		width: 100%;
+		display: block;
+		margin-top: 0px;
+		margin-bottom: 0px;
+    }
+
+    .div1, .div2, .div3{
+    	position: relative;
+    	height: auto;
+        display: block;
+        width:100%;
+    }
+
+	.header_title{
+		font-family: "Helvetica", Arial, sans-serif;
+		font-size: 50px;
+		font-weight: normal;
+		text-transform: uppercase;
+		font-weight: 100; /* Defines from thin to thick characters */
+	    text-align: center;
+	}
+
+	.header_subtitle{
+		font-family: Helvetica, Arial, sans-serif;
+		font-size: 25px;
+		font-weight: normal;
+		text-transform: uppercase;
+		font-weight: 100; /* Defines from thin to thick characters */
+	    text-align: center;
+	}
+}
+
+@media screen and (min-width:641px) {
+
+	.keyimage_box
+    .keyimage {
+        max-width: 100%;
+        position: relative;
+        height: 100%;
+    }
+
+    .pics_box{
+	    width: 100%;
+	    height: 100%;
+	    display:flex; /* To align .header's content side to side. */
+	    top: 0px;	
+    }
+
+    	.titles {
+		text-align: right;
+	    flex-grow: 8; /* To let the second flex-item grow x times (eight here) wider than the rest.*/
+	    width: 100%;
+	}
+
+    	.header_title{
+		font-family: "Helvetica", Arial, sans-serif;
+		font-size: 50px;
+		font-weight: normal;
+		text-transform: uppercase;
+		font-weight: 100; /* Defines from thin to thick characters */
+	    text-align: right;
+	}
+
+	.header_subtitle{
+		font-family: Helvetica, Arial, sans-serif;
+		font-size: 25px;
+		font-weight: normal;
+		text-transform: uppercase;
+		font-weight: 100; /* Defines from thin to thick characters */
+	    text-align: right;
+	}
+
+
+
+}
